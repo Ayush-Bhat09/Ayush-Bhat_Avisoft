@@ -1,0 +1,32 @@
+.slider {
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .slides {
+    display: flex;
+  }
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .active {
+    border: 3px solid red;
+  }
+  .navigation-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+  }
