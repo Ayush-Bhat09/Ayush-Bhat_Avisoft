@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.time-display {
+  display: flex;
+  gap: 10px;
+  font-family: monospace;
+  font-size: 48px;
+  color: white; 
+}
+
+.segment {
+  display: flex;
+  width: 40px; 
+  height: 60px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(66, 71, 75);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.toggle-button:hover {
+  background-color: crimson;
+}
