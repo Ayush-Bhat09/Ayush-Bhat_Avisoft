@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #212121;
+ }
+ h2 {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: white;
+ }
+ p {
+  display: flex;
+  justify-content: center;
+  color: white;
+ }
+ .dice-roller {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  }
+  
+  input {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  }
+ button {
+  padding: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  }
+  
+  .dice-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  
+  .dice {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px;
+  font-size: 24px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  }
+ 
+ 
